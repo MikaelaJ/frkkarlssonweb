@@ -11,6 +11,7 @@
           <v-carousel-item
             v-for="(ind, i) in index"
             :key="`${i}-${ind.fields.text}`"
+            cols="12"
             :src="ind.fields.image.fields.file.url"
           >
             <v-col
@@ -21,13 +22,11 @@
               class="text-carousel"
             >
               <v-card class="mx-auto mt-10 dustywhite" min-width="250px">
-                <v-card-title class="brownpink--text pl-5">{{
-                  ind.fields.title
-                }}</v-card-title>
+                <v-card-title class="brownpink--text pl-5">
+                  {{ ind.fields.title }}
+                </v-card-title>
                 <!-- OBS! vue-markdown måste vara på en och samma rad -->
-                <vue-markdown class="brownpink--text pb-5 px-5">{{
-                  ind.fields.text
-                }}</vue-markdown>
+                <vue-markdown class="brownpink--text pb-5 px-5">{{ ind.fields.text }}</vue-markdown>
               </v-card>
             </v-col>
           </v-carousel-item>
