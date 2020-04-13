@@ -51,7 +51,7 @@ export default {
         route: 'https://www.instagram.com/frkkarlssoncouture/?hl=en'
       },
       {
-        icon: 'mdi-linkedin-box',
+        icon: 'mdi-linkedin',
         route: 'https://www.linkedin.com/in/camilla-karlsson-0a3318163/'
       }
     ],

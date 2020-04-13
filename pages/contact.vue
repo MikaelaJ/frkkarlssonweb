@@ -31,13 +31,7 @@
 <script>
 export default {
   data() {
-    return {
-      socials: [
-        { icon: 'mdi-facebook-box', route: '/' },
-        { icon: 'mdi-instagram', route: '/' },
-        { icon: 'mdi-linkedin-box', route: '/' }
-      ]
-    }
+    return {}
   }
 }
 </script>

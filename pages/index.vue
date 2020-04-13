@@ -26,7 +26,9 @@
                   {{ ind.fields.title }}
                 </v-card-title>
                 <!-- OBS! vue-markdown måste vara på en och samma rad -->
-                <vue-markdown class="brownpink--text pb-5 px-5">{{ ind.fields.text }}</vue-markdown>
+                <vue-markdown class="brownpink--text pb-5 px-5">{{
+                  ind.fields.text
+                }}</vue-markdown>
               </v-card>
             </v-col>
           </v-carousel-item>
